@@ -1,0 +1,16 @@
+..\obj\usb_pwr.o: ..\USB\CONFIG\usb_pwr.c
+..\obj\usb_pwr.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\usb_pwr.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\usb_pwr.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\usb_pwr.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_lib.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_type.h
+..\obj\usb_pwr.o: ..\USB\CONFIG\usb_conf.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_regs.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_def.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_core.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_init.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_mem.h
+..\obj\usb_pwr.o: ..\USB\LIB\usb_int.h
+..\obj\usb_pwr.o: ..\USB\CONFIG\usb_pwr.h
+..\obj\usb_pwr.o: ..\USB\CONFIG\hw_config.h

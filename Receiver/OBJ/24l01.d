@@ -1,0 +1,11 @@
+..\obj\24l01.o: ..\HARDWARE\NRF24L01\24l01.c
+..\obj\24l01.o: ..\HARDWARE\NRF24L01\24l01.h
+..\obj\24l01.o: ..\SYSTEM\sys\sys.h
+..\obj\24l01.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\24l01.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\24l01.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\24l01.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\24l01.o: ..\HARDWARE\LCD\lcd.h
+..\obj\24l01.o: D:\KEIL\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\24l01.o: ..\SYSTEM\delay\delay.h
+..\obj\24l01.o: ..\HARDWARE\SPI\spi.h

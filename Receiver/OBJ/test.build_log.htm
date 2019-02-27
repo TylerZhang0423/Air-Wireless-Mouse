@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hongming Zhang, TJU, LIC=VGX63-ASVP2-M9SGG-V1PHW-JICF6-HV5QU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.18
+Toolchain Path:  D:\KEIL\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.18.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\think\Desktop\接收端\USER\test.uvprojx
+Project File Date:  06/07/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\KEIL\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling test.c...
+test.c(59): warning:  #223-D: function "NRF24L01_Init" declared implicitly
+  	NRF24L01_Init();		//24l01??始化	
+test.c(63): warning:  #223-D: function "NRF24L01_Check" declared implicitly
+  	while(NRF24L01_Check())
+test.c(71): warning:  #223-D: function "NRF24L01_RX_Mode" declared implicitly
+  	NRF24L01_RX_Mode();      //NRF24L01????为????模式
+test.c(96): warning:  #223-D: function "NRF24L01_RxPacket" declared implicitly
+  		if(NRF24L01_RxPacket(tmp_buf)==0)
+test.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=25674 RO-data=3262 RW-data=304 ZI-data=2392  
+FromELF: creating hex file...
+"..\OBJ\test.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\think\Desktop\接收端\USER\RTE
+  D:\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
